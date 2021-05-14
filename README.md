@@ -18,7 +18,7 @@ yarn && yarn dev
 
 ### Update Notion Keys
 
-You need to add the following to your env.local file
+You need to add the following to your env.local file (and in the environment variables in Vercel/Netlify when deployed).
 
 ```
 MY_NOTION_TOKEN=
