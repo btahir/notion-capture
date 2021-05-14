@@ -1,6 +1,6 @@
 # Notion Capture
 
-This starter shows how to use the new Notion API with Next.js. You can capture emails that will populate a Notion database,
+This starter shows how to use the new Notion API with Next.js. You can capture emails that will populate a Notion database.
 
 ## Deploy your own
 
@@ -58,3 +58,7 @@ colors: {
 Update the manifest.json file and the icons under the public/images/icons folder.
 
 You can use free tools online such as https://realfavicongenerator.net/ to quickly generate all the different icon sizes and favicon.ico file.
+
+### Want to have someone set it up for you?
+
+Hit me up on [Twitter](https://twitter.com/deepwhitman) and let's chat :)
