@@ -2,7 +2,7 @@
 
 This starter shows how to use the new Notion API with Next.js. You can capture emails that will populate a Notion database.
 
-You can see the live demo [here](https://notion-capture.vercel.app).
+You can see the live demo [here](https://notioncapture.vercel.app).
 
 ## Deploy your own
 
@@ -36,7 +36,7 @@ env: {
   siteTitle: 'Your Company',
   siteDescription: 'Your company description.',
   siteKeywords: 'your company keywords',
-  siteUrl: 'https://notion-capture.vercel.app',
+  siteUrl: 'https://notioncapture.vercel.app',
   siteImagePreviewUrl: '/images/preview.png',
   twitterHandle: '@your_handle'
 } 

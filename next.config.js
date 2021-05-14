@@ -10,7 +10,7 @@ module.exports = withPWA({
     siteTitle: 'Your Company',
     siteDescription: 'Your company description.',
     siteKeywords: 'your company keywords',
-    siteUrl: 'https://notion-capture.vercel.app',
+    siteUrl: 'https://notioncapture.vercel.app',
     siteImagePreviewUrl: '/images/preview.png',
     twitterHandle: '@your_handle'
   },
