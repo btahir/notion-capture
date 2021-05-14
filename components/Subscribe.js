@@ -5,14 +5,14 @@ function Subscribe({ setSubscribed }) {
 
   async function handleSubmit(e) {
     e.preventDefault()
+    setSubscribed(true)
     await fetch('api/update-notion', {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',
       },
       body: JSON.stringify({ email }),
-    })
-    setSubscribed(true)
+    })    
   }
 
   return (
