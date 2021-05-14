@@ -4,7 +4,7 @@ function Subscribe({ setSubscribed }) {
 	const [email, setEmail] = useState('')
 
 	async function handleSubmit(e) {
-		e.preventDefault()    
+		e.preventDefault()
 		await fetch('api/update-notion', {
 			method: 'POST',
 			headers: {
@@ -12,7 +12,7 @@ function Subscribe({ setSubscribed }) {
 			},
 			body: JSON.stringify({ email }),
 		})
-    setSubscribed(true)
+		setSubscribed(true)
 	}
 
 	return (
@@ -24,7 +24,7 @@ function Subscribe({ setSubscribed }) {
 				className="border border-r-0 border-palette-light rounded-l-lg w-2/3
               focus:outline-none focus:ring-1 focus:ring-palette-primary"
 				type="email"
-        required
+				required
 				placeholder="Your email here"
 				onChange={(e) => setEmail(e.target.value)}
 			/>
