@@ -62,6 +62,10 @@ colors: {
   },
 },
 ```
+
+### Update Image
+
+The images are generated from the Unplash [Random API](https://source.unsplash.com/). The cool gradient effect on the images is achieved by using the Tailwind Mix Blend Mode feature. You can experiment with this effect using this [tool](https://tailblend.vercel.app/).
 ### Update Progressive Web App (PWA) data
 
 Update the manifest.json file and the icons under the public/images/icons folder.
