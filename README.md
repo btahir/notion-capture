@@ -71,3 +71,5 @@ You can use free tools online such as https://realfavicongenerator.net/ to quick
 ## Want to have someone set it up for you?
 
 Hit me up on [Twitter](https://twitter.com/deepwhitman) and let's chat :)
+
+If you are looking for more choices/ production ready websites I have more [templates](https://nextails.com/) that might suit your needs.
