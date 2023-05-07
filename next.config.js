@@ -1,11 +1,4 @@
-const withPWA = require('next-pwa')
-
-module.exports = withPWA({
-  future: { webpack5: true },
-  pwa: {
-    dest: 'public',
-    disable: process.env.NODE_ENV === 'development',
-  },
+module.exports = {
   env: {
     siteTitle: 'Your Company',
     siteDescription: 'Your company description.',
@@ -14,4 +7,4 @@ module.exports = withPWA({
     siteImagePreviewUrl: '/images/preview.png',
     twitterHandle: '@your_handle'
   },
-})
+}
